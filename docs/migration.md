@@ -7,7 +7,7 @@
 - [Manual Migration from Visual Studio Code to VSCodium](#manual-migration)
 - [Semi-Automatic Migration with "Sync Settings" Extension](#semi-automatic-migration)
 
-## <a id="manual-migration"></a>Manual Migration from Visual Studio Code to VSCodium
+## <a id="manual-migration"></a>Manual Migration from Visual Studio Code to CodeCanvas
 
 VSCodium (and a freshly cloned copy of vscode built from source) stores its extension files in `~/.vscode-oss`. So if you currently have Visual Studio Code installed, your extensions won't automatically populate. You can copy the `extensions` from `~/.vscode/extensions` to `~/.vscode-oss/extensions`.
 

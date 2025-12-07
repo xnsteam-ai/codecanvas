@@ -1,4 +1,4 @@
-name: stable-linux
+name: CodeCanvas Stable - Linux
 
 on:
   workflow_dispatch:
@@ -26,9 +26,9 @@ on:
 
 env:
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-  APP_NAME: VSCodium
+  APP_NAME: CodeCanvas
   ASSETS_REPOSITORY: ${{ github.repository }}
-  BINARY_NAME: codium
+  BINARY_NAME: codecanvas
   DISABLE_UPDATE: 'yes'
   GH_REPO_PATH: ${{ github.repository }}
   ORG_NAME: ${{ github.repository_owner }}
@@ -500,7 +500,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RELEASE_VERSION: ${{ needs.check.outputs.RELEASE_VERSION }}
-      SNAP_NAME: codium
+      SNAP_NAME: codecanvas
     strategy:
       fail-fast: false
       matrix:
@@ -584,5 +584,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.STRONGER_GITHUB_TOKEN }}
-          repository: VSCodium/repositories-linux
+          repository: <YOUR_GITHUB_USERNAME>/repositories-linux
           event-type: deploy

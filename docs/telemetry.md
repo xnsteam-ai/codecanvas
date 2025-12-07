@@ -2,17 +2,17 @@
 
 # Getting all telemetry out
 
-This page explains how VSCodium handles telemetry and how it enhances your privacy.
+This page explains how CodeCanvas handles telemetry and how it enhances your privacy.
 
 ## Table of contents
 
-- [Telemetry in VSCodium](#telemetry)
+- [Telemetry in CodeCanvas](#telemetry)
 - [Replacements to Microsoft Online Services](#replacements)
 - [Checking for telemetry](#checking)
 - [VSCodium announcements](#announcements)
 - [Malicious & deprecated extensions](#malicious-extensions)
 
-## <a id="telemetry"></a>Telemetry in VSCodium
+## <a id="telemetry"></a>Telemetry in CodeCanvas
 
 Even though we do not pass the telemetry build flags and go out of our way to cripple the baked-in telemetry, Microsoft still can track usage by default depending on your settings.
 
@@ -66,9 +66,9 @@ If you want to verify that no telemetry is being sent, you can use network monit
 
 Look for connections to Microsoft domains and telemetry endpoints.
 
-## <a id="announcements"></a>VSCodium anouncements
+## <a id="announcements"></a>CodeCanvas announcements
 
-The welcome page in VSCodium displays announcements that are fetched via the internet from the project's GitHub repository.
+The welcome page in CodeCanvas displays announcements that are fetched via the internet from the project's GitHub repository.
 
 If you prefer to disable this feature, you can disable the preference `workbench.welcomePage.extraAnnouncements`.
 

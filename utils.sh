@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-APP_NAME="${APP_NAME:-VSCodium}"
+APP_NAME="${APP_NAME:-CodeCanvas}"
 APP_NAME_LC="$( echo "${APP_NAME}" | awk '{print tolower($0)}' )"
-ASSETS_REPOSITORY="${ASSETS_REPOSITORY:-VSCodium/vscodium}"
-BINARY_NAME="${BINARY_NAME:-codium}"
-GH_REPO_PATH="${GH_REPO_PATH:-VSCodium/vscodium}"
-ORG_NAME="${ORG_NAME:-VSCodium}"
+ASSETS_REPOSITORY="${ASSETS_REPOSITORY:-<YOUR_GITHUB_USERNAME>/codecanvas}"
+BINARY_NAME="${BINARY_NAME:-codecanvas}"
+GH_REPO_PATH="${GH_REPO_PATH:-<YOUR_GITHUB_USERNAME>/codecanvas}"
+ORG_NAME="${ORG_NAME:-<YOUR_GITHUB_USERNAME>}"
 TUNNEL_APP_NAME="${TUNNEL_APP_NAME:-"${BINARY_NAME}-tunnel"}"
 
 # All common functions can be added to this file

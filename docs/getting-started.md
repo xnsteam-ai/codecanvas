@@ -1,8 +1,8 @@
 <!-- order: 5 -->
 
-# Getting Started with VSCodium
+# Getting Started with CodeCanvas
 
-This guide will help you get started with VSCodium.
+This guide will help you get started with CodeCanvas.
 
 ## Table of Contents
 
