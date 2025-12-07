@@ -1,10 +1,11 @@
 <!-- order: 15 -->
 
-# Extensions + Marketplace
+# 🧩 Extensions + Marketplace
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Marketplace](#marketplace)
+- [Recommended Extensions for Common Tasks](#recommended-extensions)
 - [How to use the OpenVSX Marketplace](#howto-openvsx-marketplace)
 - [How to use a different extension gallery](#howto-switch-marketplace)
 - [How to self host your own extension gallery](#howto-selfhost-marketplace)
@@ -12,7 +13,19 @@
 - [Proprietary Debugging Tools](#proprietary-debugging-tools)
 - [Proprietary Extensions](#proprietary-extensions)
 - [Using the "VSIX Manager" Extension](#vsix-manager)
-- [Extensions compatibility](https://github.com/VSCodium/vscodium/blob/master/docs/extensions-compatibility.md)
+- [Extensions compatibility](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions-compatibility.md)
+
+## 🔍 Quick Start with Extensions
+
+New to CodeCanvas? Here are some essential extensions to get you started:
+
+- **Python**: `ms-python.python` - IntelliSense, debugging, formatting
+- **JavaScript/TypeScript**: `ms-vscode.vscode-typescript-next` - Enhanced language support
+- **Git**: `eamodio.gitlens` - Supercharge Git capabilities
+- **Themes**: `dracula-theme.theme-dracula` - Popular dark theme
+- **Formatting**: `esbenp.prettier-vscode` - Code formatter
+
+Install any extension by clicking the Extensions icon in the sidebar (🧩) and searching for the extension name.
 
 ## <a id="marketplace"></a>Marketplace
 

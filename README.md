@@ -16,7 +16,23 @@
 
 </div>
 
-**This is not a fork. This is a repository of scripts to automatically build [Microsoft's `vscode` repository](https://github.com/microsoft/vscode) into freely-licensed binaries with a community-driven default configuration.**
+**Welcome to CodeCanvas!**
+
+CodeCanvas is a free/libre open source code editor built from Microsoft's Visual Studio Code source code. Unlike the official VS Code, CodeCanvas comes with enhanced privacy features and a community-driven configuration that prioritizes your freedom and security.
+
+**Key Benefits:**
+- **Privacy First**: All telemetry is disabled by default
+- **Fully Open Source**: No proprietary components or tracking
+- **Community Driven**: Configured for developers by developers
+- **Extension Support**: Compatible with most VS Code extensions via Open VSX
+
+## 🚀 Quick Start
+
+1. **[Download CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases)** for your platform
+2. Install using your preferred method (see [Installation Guide](#download-install))
+3. Launch CodeCanvas and start coding!
+
+For a guided tour, check out our [Getting Started Guide](docs/getting-started.md).
 
 ## Table of Contents
 

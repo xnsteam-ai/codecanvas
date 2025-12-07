@@ -1,44 +1,36 @@
-# Documentation
+# 📚 CodeCanvas Documentation
 
-## Table of Contents
+## 🚀 Getting Started (New Users Start Here)
 
-- [Getting Started with CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md)
-  - [Installation](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#installation)
-  - [First Steps](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#first-steps)
-  - [Basic Usage](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#basic-usage)
-  - [Keyboard Shortcuts](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#keyboard-shortcuts)
-  - [Next Steps](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#next-steps)
-- [Getting all the Telemetry Out](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md)
-  - [Telemetry in CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#telemetry)
-  - [Replacements to Microsoft Online Services](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#replacements)
-  - [Checking for Telemetry](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#checking)
-  - [Additional Privacy Settings](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#additional-settings)
-  - [CodeCanvas Announcements](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#announcements)
-  - [Malicious & Deprecated Extensions](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#malicious-extensions)
-- [Extensions and Marketplace](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md)
-  - [Marketplace](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#marketplace)
-  - [How to use the OpenVSX Marketplace](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#howto-openvsx-marketplace)
-  - [How to use a different extension gallery](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#howto-switch-marketplace)
-  - [How to self host your own extension gallery](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#howto-selfhost-marketplace)
-  - [Visual Studio Marketplace](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#visual-studio-marketplace)
-  - [Proprietary Debugging Tools](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#proprietary-debugging-tools)
-  - [Proprietary Extensions](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#proprietary-extensions)
-  - [Using the "VSIX Manager" Extension](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#vsix-manager)
-  - [Extensions compatibility](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions-compatibility.md)
-  - [Ext: GitHub Copilot](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/ext-github-copilot.md)
-- [Migration](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/migration.md)
-  - [Manual Migration from Visual Studio Code to CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/migration.md#manual-migration)
-  - [Semi-Automatic Migration with "Sync Settings" Extension](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/migration.md#semi-automatic-migration)
-- [Usage](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md)
-  - [Sign in with GitHub](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#signin-github)
-  - [Accounts authentication](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/accounts-authentication.md)
-  - [How do I run CodeCanvas in portable mode?](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#portable)
-  - [How do I fix the default file manager?](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#file-manager)
-  - [How do I press and hold a key and have it repeat in CodeCanvas?](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#press-and-hold)
-  - [How do I open CodeCanvas from the terminal?](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#terminal-support)
-- [Troubleshooting](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/troubleshooting.md)
-  - [Linux](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/troubleshooting.md#linux)
-- [Other Resources](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/others.md)
-  - [What are reh and reh-web archives?](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/others.md#reh)
-- [Contributing Guidelines](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/CONTRIBUTING.md)
-- [Building CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/howto-build.md)
+- [Getting Started with CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md) - Complete beginner's guide
+- [Installation Guide](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#installation) - How to install CodeCanvas
+- [First Steps](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#first-steps) - Your first 10 minutes with CodeCanvas
+- [Essential Keyboard Shortcuts](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md#keyboard-shortcuts) - Speed up your workflow
+
+## 🧩 Extensions & Customization
+
+- [Extensions and Marketplace](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md) - Installing and managing extensions
+- [Recommended Extensions](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#recommended-extensions) - Essential extensions for common tasks
+- [Themes & Appearance](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#themes) - Customize the look and feel
+
+## 🔐 Privacy & Security
+
+- [Privacy Features](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md) - How CodeCanvas protects your privacy
+- [Disabling All Telemetry](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md#telemetry) - Ensure complete privacy
+
+## 💡 Common Tasks & How-Tos
+
+- [Working with Git](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md) - Version control integration
+- [Portable Mode](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#portable) - Run CodeCanvas from a USB drive
+- [Terminal Usage](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md#terminal-support) - Integrated terminal features
+
+## ⚠️ Troubleshooting
+
+- [Common Issues](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/troubleshooting.md) - Solutions to frequent problems
+- [Linux Specific Issues](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/troubleshooting.md#linux) - Linux troubleshooting guide
+
+## 🔧 Advanced Topics
+
+- [Migration from VS Code](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/migration.md) - Switching from Visual Studio Code
+- [Building CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/howto-build.md) - Compile from source
+- [Contributing](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/CONTRIBUTING.md) - Help improve CodeCanvas

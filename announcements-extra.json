@@ -1,2 +1,12 @@
 [
+  {
+    "id": "tips-1",
+    "title": "Pro Tips for CodeCanvas",
+    "url": "https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/usage.md"
+  },
+  {
+    "id": "privacy",
+    "title": "Your Privacy is Protected",
+    "url": "https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/telemetry.md"
+  }
 ]

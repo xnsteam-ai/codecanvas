@@ -1,2 +1,17 @@
 [
+  {
+    "id": "welcome-1",
+    "title": "Welcome to CodeCanvas!",
+    "url": "https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas"
+  },
+  {
+    "id": "getting-started",
+    "title": "Getting Started Guide",
+    "url": "https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/getting-started.md"
+  },
+  {
+    "id": "extensions",
+    "title": "Finding Extensions",
+    "url": "https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md"
+  }
 ]
