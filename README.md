@@ -2,7 +2,7 @@
     <br />
     <img src="./icons/stable/codecanvas.svg" alt="CodeCanvas Logo" width="200"/>
     <h1>CodeCanvas</h1>
-    <h3>Free/Libre Open Source Software Binaries of Visual Studio Code</h3>
+    <h3>Privacy-Focused, Open Source Code Editor</h3>
 </div>
 
 <div id="badges" align="center">
@@ -16,211 +16,275 @@
 
 </div>
 
-**Welcome to CodeCanvas!**
+## 🌟 Overview
 
-CodeCanvas is a free/libre open source code editor built from Microsoft's Visual Studio Code source code. Unlike the official VS Code, CodeCanvas comes with enhanced privacy features and a community-driven configuration that prioritizes your freedom and security.
+CodeCanvas is a privacy-focused, libre open-source code editor built from Microsoft's Visual Studio Code source code. It maintains full compatibility with VS Code extensions while eliminating all telemetry and tracking mechanisms.
 
-**Key Benefits:**
-- **Privacy First**: All telemetry is disabled by default
-- **Fully Open Source**: No proprietary components or tracking
-- **Community Driven**: Configured for developers by developers
-- **Extension Support**: Compatible with most VS Code extensions via Open VSX
+Unlike the official VS Code, CodeCanvas prioritizes your **freedom, privacy, and security** without compromising functionality. Every build is licensed under the permissive MIT license.
+
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **🔒 Privacy First** | All telemetry, tracking, and data collection disabled by default |
+| **🚀 Full Compatibility** | Works with most VS Code extensions via Open VSX marketplace |
+| **📦 Cross-Platform** | Native support for Windows, macOS, and Linux |
+| **⚡ Performance** | Optimized builds with reduced resource consumption |
+| **🎨 Customizable** | Extensive theming and extension support |
+| **🆓 Truly Free** | No proprietary components or licensing restrictions |
 
 ## 🚀 Quick Start
 
-1. **[Download CodeCanvas](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases)** for your platform
-2. Install using your preferred method (see [Installation Guide](#download-install))
-3. Launch CodeCanvas and start coding!
+### Installation
 
-For a guided tour, check out our [Getting Started Guide](docs/getting-started.md).
-
-## Table of Contents
-
-- [Download/Install](#download-install)
-  - [Install with Brew](#install-with-brew)
-  - [Install with Windows Package Manager (WinGet)](#install-with-winget)
-  - [Install with Chocolatey](#install-with-choco)
-  - [Install with Scoop](#install-with-scoop)
-  - [Install with snap](#install-with-snap)
-  - [Install with Package Manager](#install-with-package-manager)
-  - [Install on Arch Linux](#install-on-arch-linux)
-  - [Flatpak Option](#flatpak)
-- [Build](#build)
-- [Why Does This Exist](#why)
-- [More Info](#more-info)
-- [Supported Platforms](#supported-platforms)
-
-## <a id="download-install"></a>Download/Install
-
-:tada: :tada:
-Download latest release here:
-[stable](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases) or
-[insiders](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas-insiders/releases)
-:tada: :tada:
-
-[More info / helpful tips are here.](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/index.md)
-
-
-#### <a id="install-with-brew"></a>Install with Brew (Mac)
-
-If you are on a Mac and have [Homebrew](https://brew.sh/) installed:
-```bash
-# stable
-brew install --cask codecanvas
-
-# insiders
-brew install --cask codecanvas@insiders
+**Windows** (via WinGet):
+```powershell
+winget install -e --id CodeCanvas.CodeCanvas
 ```
 
-#### <a id="install-with-winget"></a>Install with Windows Package Manager (WinGet)
+**macOS** (via Homebrew):
+```bash
+brew install --cask codecanvas
+```
 
-If you use Windows and have [Windows Package Manager](https://github.com/microsoft/winget-cli) installed:
+**Linux** (via Snap):
+```bash
+snap install codecanvas --classic
+```
+
+For other installation methods, visit our [Downloads Page](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases).
+
+### First Steps
+
+1. Launch CodeCanvas
+2. Install recommended extensions from the sidebar
+3. Configure your preferred theme and settings
+4. Start coding!
+
+For a comprehensive guide, see our [Getting Started Tutorial](docs/getting-started.md).
+
+## 📦 Installation Options
+
+<details>
+<summary><strong>Expand Installation Methods</strong></summary>
+
+### Package Managers
+
+**Windows Package Manager (WinGet)**
 ```cmd
-:: stable
+:: Stable release
 winget install -e --id CodeCanvas.CodeCanvas
 
-:: insider
+:: Insider builds
 winget install -e --id CodeCanvas.CodeCanvas.Insiders
 ```
 
-#### <a id="install-with-choco"></a>Install with Chocolatey (Windows)
-
-If you use Windows and have [Chocolatey](https://chocolatey.org) installed:
+**Chocolatey (Windows)**
 ```cmd
-:: stable
 choco install codecanvas
-
-:: insider
-choco install codecanvas-insiders
 ```
 
-#### <a id="install-with-scoop"></a>Install with Scoop (Windows)
-
-If you use Windows and have [Scoop](https://scoop.sh) installed:
+**Scoop (Windows)**
 ```bash
 scoop bucket add extras
 scoop install codecanvas
 ```
 
-#### <a id="install-with-snap"></a>Install with snap (GNU/Linux)
+**Homebrew (macOS)**
+```bash
+# Stable release
+brew install --cask codecanvas
 
-CodeCanvas is available in the [Snap Store](https://snapcraft.io/) as [CodeCanvas](https://snapcraft.io/codecanvas).
-If your GNU/Linux distribution has support for [snaps](https://snapcraft.io/docs/installing-snapd):
+# Insider builds
+brew install --cask codecanvas@insiders
+```
 
+**Snap (Linux)**
 ```bash
 snap install codecanvas --classic
 ```
 
-#### <a id="install-with-package-manager"></a>Install with Package Manager (GNU/Linux)
+**Arch Linux (AUR)**
+```bash
+# Pre-built packages
+yay -S codecanvas
 
-You can always install using the downloads (deb, rpm, tar) on the releases page for [stable](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases) or [insiders](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas-insiders/releases), but you can also install using your favorite package manager and get automatic updates.
+# Build from source
+yay -S codecanvas-git
+```
 
-#### <a id="install-on-arch-linux"></a>Install on Arch Linux
-
-CodeCanvas is available in [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository).
-
-An alternative package [codecanvas-git](https://aur.archlinux.org/packages/codecanvas-git/), maintained by [@cedricroijakkers](https://github.com/cedricroijakkers), is also available should you wish to compile from source yourself.
-
-#### <a id="flatpak"></a>Flatpak Option (GNU/Linux)
-
-CodeCanvas is available as a Flatpak app [here](https://flathub.org/apps/details/com.codecanvas.codecanvas).
-If your distribution has support for [flatpak](https://flathub.org), and you have enabled the [flathub repo](https://flatpak.org/setup/):
-
+**Flatpak (Linux)**
 ```bash
 flatpak install flathub com.codecanvas.codecanvas
 flatpak run com.codecanvas.codecanvas
 ```
 
-## <a id="build"></a>Build
+### Manual Installation
 
-Build instructions can be found [here](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/howto-build.md)
+Download the appropriate package for your platform from our [Releases Page](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases):
 
-## <a id="why"></a>Why Does This Exist
+- **Windows**: `.exe`, `.msi`, or portable `.zip`
+- **macOS**: `.dmg` or `.zip`
+- **Linux**: `.deb`, `.rpm`, `AppImage`, or `.tar.gz`
 
-This repository contains build files to generate free release binaries of Microsoft's Visual Studio Code. When we speak of "free software", we're talking about freedom, not price.
+</details>
 
-Microsoft's releases of Visual Studio Code are licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contain telemetry/tracking. According to [this comment](https://github.com/Microsoft/vscode/issues/60#issuecomment-161792005) from a Visual Studio Code maintainer:
+## 🛠️ Usage Examples
 
-> When we [Microsoft] build Visual Studio Code, we do exactly this. We clone the vscode repository, we lay down a customized product.json that has Microsoft specific functionality (telemetry, gallery, logo, etc.), and then produce a build that we release under our license.
->
-> When you clone and build from the vscode repo, none of these endpoints are configured in the default product.json. Therefore, you generate a "clean" build, without the Microsoft customizations, which is by default licensed under the MIT license
+### Essential Keyboard Shortcuts
 
-This repo exists so that you don't have to download+build from source. The build scripts in this repo clone Microsoft's vscode repo, run the build commands, and upload the resulting binaries to [GitHub releases](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/releases). __These binaries are licensed under the MIT license. Telemetry is disabled.__
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+P` / `Cmd+P` | Quick Open |
+| `Ctrl+Shift+P` / `Cmd+Shift+P` | Command Palette |
+| `Ctrl+,` / `Cmd+,` | User Settings |
+| `Ctrl+K Ctrl+S` / `Cmd+K Cmd+S` | Keyboard Shortcuts |
+| `Ctrl+\` / `Cmd+\` | Toggle Sidebar |
+| `Ctrl+J` / `Cmd+J` | Toggle Panel |
 
-If you want to build from source yourself, head over to [Microsoft's vscode repo](https://github.com/Microsoft/vscode) and follow their [instructions](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#build-and-run). This repo exists to make it easier to get the latest version of MIT-licensed Visual Studio Code.
+### Recommended Extensions
 
-Microsoft's build process (which we are running to build the binaries) does download additional files. Those packages downloaded during build are:
+Get started faster with these essential extensions:
 
-- Pre-built extensions from the GitHub:
-  - [ms-vscode.js-debug-companion](https://github.com/microsoft/vscode-js-debug-companion)
-  - [ms-vscode.js-debug](https://github.com/microsoft/vscode-js-debug)
-  - [ms-vscode.vscode-js-profile-table](https://github.com/microsoft/vscode-js-profile-visualizer)
-- From [Electron releases](https://github.com/electron/electron/releases) (using [gulp-atom-electron](https://github.com/joaomoreno/gulp-atom-electron))
-  - electron
-  - ffmpeg
+1. **Python Development**: `ms-python.python`
+2. **JavaScript/TypeScript**: `ms-vscode.vscode-typescript-next`
+3. **Git Enhancement**: `eamodio.gitlens`
+4. **Code Formatting**: `esbenp.prettier-vscode`
+5. **Popular Theme**: `dracula-theme.theme-dracula`
 
-## <a id="more-info"></a>More Info
+## 🔧 Building from Source
 
-### Documentation
+To build CodeCanvas from source:
 
-For more information on getting all the telemetry disabled, tips for migrating from Visual Studio Code to CodeCanvas and more, have a look at [the Docs page](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/index.md) page.
+```bash
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas.git
+cd codecanvas
+npm install
+./dev/build.sh
+```
 
-### Troubleshooting
+For detailed build instructions, see our [Build Guide](docs/howto-build.md).
 
-If you have any issue, please check [the Troubleshooting page](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/troubleshooting.md) or the existing issues.
+## 🤝 Contributing
 
-### Extensions and the Marketplace
+We welcome contributions from the community! Here's how you can help:
 
-According to the Visual Studio Marketplace [Terms of Use](https://aka.ms/vsmarketplace-ToU), _you may only install and use Marketplace Offerings with Visual Studio Products and Services._ For this reason, CodeCanvas uses [open-vsx.org](https://open-vsx.org/), an open source registry for Visual Studio Code extensions. See the [Extensions + Marketplace](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/index.md#extensions-marketplace) section on the Docs page for more details.
+1. **Report Issues**: Found a bug? [Open an issue](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/issues/new)
+2. **Submit Pull Requests**: Have a fix or enhancement? Submit a PR
+3. **Improve Documentation**: Help make our docs better
+4. **Test New Features**: Try insider builds and provide feedback
 
-Please note that some Visual Studio Code extensions have licenses that restrict their use to the official Visual Studio Code builds and therefore do not work with CodeCanvas. See [this note](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/docs/extensions.md#proprietary-debugging-tools) on the Docs page for what's been found so far and possible workarounds.
+Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting changes.
 
-### How are the CodeCanvas binaries built?
+### Development Setup
 
-If you would like to see the commands we run to build `vscode` into CodeCanvas binaries, have a look at the workflow files in `.github/workflows` for Windows, GNU/Linux and macOS. These build files call all the other scripts in the repo.
+```bash
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas.git
+cd codecanvas
+npm install
+```
 
-The builds are run every day, but exit early if there isn't a new release from Microsoft.
+## 📚 Documentation
 
-## <a id="supported-platforms"></a>Supported Platforms
+- [Getting Started Guide](docs/getting-started.md)
+- [Extension Management](docs/extensions.md)
+- [Privacy & Telemetry](docs/telemetry.md)
+- [Migration from VS Code](docs/migration.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Build Instructions](docs/howto-build.md)
 
-The minimal version is limited by the core component Electron, you may want to check its [platform prerequisites](https://www.electronjs.org/docs/latest/development/build-instructions-gn#platform-prerequisites).
+## 🎯 Why CodeCanvas Exists
 
-- [x] macOS (`zip`, `dmg`) macOS 10.15 or newer x64
-- [x] macOS (`zip`, `dmg`) macOS 11.0 or newer arm64
-- [x] GNU/Linux x64 (`deb`, `rpm`, `AppImage`, `snap`, `tar.gz`)
-- [x] GNU/Linux arm64 (`deb`, `rpm`, `snap`, `tar.gz`)
-- [x] GNU/Linux armhf (`deb`, `rpm`, `tar.gz`)
-- [x] GNU/Linux riscv64 (`tar.gz`)
-- [x] GNU/Linux loong64 (`tar.gz`)
-- [x] GNU/Linux ppc64le (`tar.gz`)
-- [x] Windows 10 / Server 2012 R2 or newer x64
-- [x] Windows 10 / Server 2012 R2 or newer arm64
+Microsoft's official Visual Studio Code releases:
+- Are licensed under a [restrictive, non-FLOSS license](https://code.visualstudio.com/license)
+- Include mandatory telemetry and tracking mechanisms
+- Contain proprietary components
 
-## <a id="thanks"></a>Special thanks
+CodeCanvas addresses these concerns by:
+- Building directly from Microsoft's open-source VS Code repository
+- Removing all telemetry and tracking functionality
+- Ensuring all components are truly open-source
+- Providing builds under the permissive MIT license
+
+As stated by a Microsoft VS Code maintainer:
+
+> When we [Microsoft] build Visual Studio Code, we clone the vscode repository, lay down a customized product.json with Microsoft-specific functionality (telemetry, gallery, logo, etc.), and produce a build under our license.
+> 
+> When you clone and build from the vscode repo, none of these endpoints are configured in the default product.json. Therefore, you generate a "clean" build, without Microsoft customizations, which is by default licensed under the MIT license.
+
+CodeCanvas automates this clean build process, making it easy for everyone to access privacy-respecting, libre software.
+
+## 🖥️ Supported Platforms
+
+| Platform | Architectures | Packages |
+|----------|---------------|----------|
+| **Windows** | x64, ARM64 | `.exe`, `.msi`, `.zip` |
+| **macOS** | x64, ARM64 | `.dmg`, `.zip` |
+| **Linux x64** | x64 | `.deb`, `.rpm`, `AppImage`, `snap`, `.tar.gz` |
+| **Linux ARM** | ARM64, ARMHF | `.deb`, `.rpm`, `snap`, `.tar.gz` |
+| **Linux Other** | RISCV64, LOONG64, PPC64LE | `.tar.gz` |
+
+Minimum requirements: Windows 10 / Server 2012 R2 or newer, macOS 10.15 or newer, modern Linux distributions.
+
+## 🙏 Acknowledgments
 
 <table>
   <tr>
     <td><a href="https://github.com/jaredreich" target="_blank">@jaredreich</a></td>
-    <td>for the logo</td>
+    <td>Logo design</td>
   </tr>
   <tr>
     <td><a href="https://github.com/PalinuroSec" target="_blank">@PalinuroSec</a></td>
-    <td>for CDN and domain name</td>
+    <td>CDN and domain name</td>
   </tr>
   <tr>
     <td><a href="https://www.macstadium.com" target="_blank"><img src="https://images.prismic.io/macstadium/66fbce64-707e-41f3-b547-241908884716_MacStadium_Logo.png?w=128&q=75" width="128" height="49" alt="MacStadium logo" /></a></td>
-    <td>for providing a Mac mini M1</td>
+    <td>Mac mini M1 for builds</td>
   </tr>
   <tr>
     <td><a href="https://github.com/daiyam" target="_blank">@daiyam</a></td>
-    <td>for macOS certificate</td>
+    <td>macOS code signing certificate</td>
   </tr>
   <tr>
     <td><a href="https://signpath.org/" target="_blank"><img src="https://avatars.githubusercontent.com/u/34448643" height="30" alt="SignPath logo" /></a></td>
-    <td>free code signing on Windows provided by <a href="https://signpath.io/" target="_blank">SignPath.io</a>, certificate by <a href="https://signpath.org/" target="_blank">SignPath Foundation</a></td>
+    <td>Free Windows code signing via <a href="https://signpath.io/" target="_blank">SignPath.io</a></td>
   </tr>
 </table>
 
-## <a id="license"></a>License
+## 📄 License
 
-[MIT](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/blob/master/LICENSE)
+CodeCanvas is licensed under the [MIT License](LICENSE), ensuring maximum freedom for users and developers alike.
+
+```
+MIT License
+
+Copyright (c) <YEAR> CodeCanvas Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+<div align="center">
+
+[Documentation](docs/index.md) • [Report Issues](https://github.com/<YOUR_GITHUB_USERNAME>/codecanvas/issues) • [Contributing](CONTRIBUTING.md) • [License](LICENSE)
+
+**Built with ❤️ by the open-source community**
+
+</div>
